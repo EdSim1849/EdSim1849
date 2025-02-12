@@ -1,0 +1,41 @@
+Exercice d’entrainement :
+
+
+Exercice 1
+Créez une fonction distance_points qui prend deux tuples représentant des points 2D et
+calcule leur distance euclidienne
+Exemple : distance_points((0,0), (3,4)) doit retourner 5.0
+
+
+Exercice 2 :
+Créez une fonction racines_communes qui prend deux ensembles de nombres #
+représentant les racines de deux polynômes et retourne : # - l'ensemble des racines
+communes # - l'ensemble des racines uniques au premier polynôme # - l'ensemble des
+racines uniques au second polynôme
+
+
+Exercice 3 :
+Soit un dictionnaire de notes d'étudiants notes = {'Alice': 15, 'Bob': 12, 'Charlie': 18, 'David': 9}
+a. Créez une fonction lambda qui indique si un étudiant a la moyenne (≥10)
+b. Utilisez une compréhension de dictionnaire pour créer un nouveau dictionnaire #
+avec uniquement les étudiants ayant la moyenne #
+c. Créez un ensemble des notes uniques.
+d. Utilisez filter pour obtenir les étudiants ayant une note >15
+
+
+Exercice 4 :
+a. Créez une fonction lambda pour calculer le terme général d'une suite arithmétique
+Un = U0 + n*r
+Exemple: U0 = 1, r = 3
+b. Utilisez une compréhension de liste pour générer les 10 premiers termes
+c. Créez un ensemble des termes pairs
+d. Stockez dans un dictionnaire les positions des termes pairs
+
+
+Exercice 5 :
+texte = "Python est un langage de programmation puissant pour les sciences
+mathématiques et informatique. Par ailleurs, Python est facile à apprendre"
+a. Créez une fonction lambda qui compte les voyelles dans un mot
+b. Utilisez une compréhension pour créer un dictionnaire {mot: nombre_voyelles}
+c. Créez un ensemble des mots uniques
+d. Utilisez filter pour obtenir les mots de plus de 5 lettres
